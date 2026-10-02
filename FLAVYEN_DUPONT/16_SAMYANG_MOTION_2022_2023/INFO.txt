@@ -1,0 +1,39 @@
+Samyang | Motion 2022 - 2023
+Page : https://flavyendupont.com/samyang-buldak-motion-2022-2023
+Categorie sur le site : ADS
+Position dans la grille ALL : 16
+
+VIDEO 1
+  url : https://vimeo.com/932806603/5ebc786175
+  title : Samyang Buldak | Motion 2022 - 2023
+  duration : 77 s
+  upload_date : 2024-04-10 04:50:20
+  author_name : Flavyen Dupont
+  description : Producers : BorderX & Samyang Buldak Korea
+  embed : https://player.vimeo.com/video/932806603?h=5ebc786175
+
+VIDEO 2
+  url : https://vimeo.com/879718744/eb9fc94da3
+  embed : https://player.vimeo.com/video/879718744?h=eb9fc94da3&title=0&byline=0&portrait=0
+  oembed_error : HTTP Error 404: Not Found
+
+Images de la page : 0 | Videos natives : 0
+
+TEXTE DE LA PAGE
+
+All Motion Videos:
+
+Presentation with BorderX.
+
+Buldak Samyang. 2022. 2023
+
+All Buldak / Samyang content between 2022 and 2023 for Korea, US and more.
+
+CREDITS
+PRODUCED BY
+BorderX
+
+Directed. Edited and Motion Design by
+Flavyen Dupont
+Art Directors
+Flavyen Dupont + (for some project) Yeryung Ko & Yoolim Moon

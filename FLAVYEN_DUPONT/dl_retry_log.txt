@@ -1,0 +1,19 @@
+ERROR: [vimeo] 931711174: Unable to download webpage: HTTP Error 401: Unauthorized (caused by <HTTPError 401: Unauthorized>)
+FAIL 08_SHOWREEL_2024 1 https://player.vimeo.com/video/931711174?h=0e96950030
+ERROR: [vimeo] 1019407022: Unable to download webpage: HTTP Error 401: Unauthorized (caused by <HTTPError 401: Unauthorized>)
+FAIL 09_KCORP_BASEBALL_COLLECTION_2024 1 https://player.vimeo.com/video/1019407022?h=30d75ad849
+ERROR: [vimeo] 999800981: Unable to download webpage: HTTP Error 401: Unauthorized (caused by <HTTPError 401: Unauthorized>)
+FAIL 10_KCORP_JERSEY_2024 1 https://player.vimeo.com/video/999800981?h=133fac9734
+ERROR: [vimeo] 879718744: Got HTTP Error 403 when using impersonate target "chrome-146:macos-26". If you are using a data center IP or VPN/proxy, your IP may be blocked; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+FAIL 16_SAMYANG_MOTION_2022_2023 2 https://player.vimeo.com/video/879718744?h=eb9fc94da3&title=0&byline=0&portrait=0
+ERROR: [vimeo] 946655292: Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
+FAIL 17_PLACE_VENDÔME_X_CARLA_GINOLA 1 https://player.vimeo.com/video/946655292?h=e1d75eb4a7
+ERROR: [vimeo] 946657237: Unable to download webpage: HTTP Error 401: Unauthorized (caused by <HTTPError 401: Unauthorized>)
+FAIL 18_PLACE_VENDÔME_X_DIANNE_PERREAU 1 https://player.vimeo.com/video/946657237?h=4e2099642c
+ERROR: [vimeo] 946654476: Unable to download webpage: HTTP Error 401: Unauthorized (caused by <HTTPError 401: Unauthorized>)
+FAIL 19_PLACE_VENDÔME_X_CAMILLE_CHARRIERE 1 https://player.vimeo.com/video/946654476?h=cd132500f7
+ERROR: [vimeo] 499554729: Unable to download webpage: HTTP Error 401: Unauthorized (caused by <HTTPError 401: Unauthorized>)
+FAIL 24_MENTORSHOW_X_KEV_ADAMS 1 https://player.vimeo.com/video/499554729?h=1e4002cd9a
+ERROR: [vimeo] 566061537: Unable to download webpage: HTTP Error 401: Unauthorized (caused by <HTTPError 401: Unauthorized>)
+FAIL 25_MENTORSHOW_X_AURÉLIE_VALOGNES 1 https://player.vimeo.com/video/566061537?h=be09e1a32b
+ALL_DONE

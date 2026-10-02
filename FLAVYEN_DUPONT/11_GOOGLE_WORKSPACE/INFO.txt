@@ -1,0 +1,32 @@
+Google Workspace
+Page : https://flavyendupont.com/google-motion
+Categorie sur le site : aucune (seulement ALL)
+Position dans la grille ALL : 11
+
+VIDEO 1
+  url : https://vimeo.com/731353074/1aff96f14f
+  title : GOOGLE Workspace • 2022_15s_B
+  duration : 15 s
+  upload_date : 2022-07-19 08:41:15
+  author_name : First Frame
+  description : Client : Google 
+Agency : Across The Pond
+
+Regional Lead : Rafael Covo
+Creative : Julie Faucher
+  embed : https://player.vimeo.com/video/731353074?h=1aff96f14f
+
+Images de la page : 0 | Videos natives : 0
+
+TEXTE DE LA PAGE
+
+Google Workspace
+
+Motion done for Google, yep, that's all. It was fun !
+
+CREDITS
+
+PRODUCED BY
+FirstFrame
+MOTION DESIGN
+Flavyen Dupont & Mathieu Debruyère

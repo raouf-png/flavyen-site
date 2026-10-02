@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flavyen Dupont, Director & Art Director</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg class="svg-library" aria-hidden="true"><defs>
+<linearGradient id="ink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b3b3b"/><stop offset=".55" stop-color="#161616"/><stop offset="1" stop-color="#000"/></linearGradient>
+<symbol id="icon-all" viewBox="0 0 32 32"><path fill-rule="evenodd" d="M6.5 6h19A2.5 2.5 0 0 1 28 8.5v15a2.5 2.5 0 0 1-2.5 2.5h-19A2.5 2.5 0 0 1 4 23.5v-15A2.5 2.5 0 0 1 6.5 6zM6 8.4h2.5v2.2H6zM6 12.6h2.5v2.2H6zM6 16.8h2.5V19H6zM6 21h2.5v2.2H6zM23.5 8.4H26v2.2h-2.5zM23.5 12.6H26v2.2h-2.5zM23.5 16.8H26V19h-2.5zM23.5 21H26v2.2h-2.5zM11 8.5h10v15H11z"/></symbol>
+<symbol id="icon-ads" viewBox="0 0 32 32"><path fill-rule="evenodd" d="M6 5.5h20A3 3 0 0 1 29 8.5v11a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-11a3 3 0 0 1 3-3zM7 8h18a1.5 1.5 0 0 1 1.5 1.5v9A1.5 1.5 0 0 1 25 20H7a1.5 1.5 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 7 8zM13.8 10.6l6.4 3.4-6.4 3.4z"/><path d="M14.6 22.5h2.8v3h-2.8zM10.5 25.2h11a.8.8 0 0 1 0 1.6h-11a.8.8 0 0 1 0-1.6z"/></symbol>
+<symbol id="icon-fiction" viewBox="0 0 32 32"><path d="M5.5 13.5h21a1.5 1.5 0 0 1 1.5 1.5v10.5a2.5 2.5 0 0 1-2.5 2.5h-19A2.5 2.5 0 0 1 4 25.5V15a1.5 1.5 0 0 1 1.5-1.5z"/><path fill-rule="evenodd" transform="rotate(-13 4.5 11.5)" d="M5 7.5h22a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1zM8.5 7.5h3.2l-2.2 5H6.3zM15 7.5h3.2l-2.2 5h-3.2zM21.5 7.5h3.2l-2.2 5h-3.2z"/></symbol>
+<symbol id="icon-about" viewBox="0 0 32 32"><circle cx="16" cy="10.5" r="5.6"/><path d="M5.5 27.5c0-6.4 4.6-10 10.5-10s10.5 3.6 10.5 10a.5.5 0 0 1-.5.5H6a.5.5 0 0 1-.5-.5z"/></symbol>
+<symbol id="icon-contact" viewBox="0 0 32 32"><path fill-rule="evenodd" d="M5.5 7.5h21A2.5 2.5 0 0 1 29 10v12.5a2.5 2.5 0 0 1-2.5 2.5h-21A2.5 2.5 0 0 1 3 22.5V10a2.5 2.5 0 0 1 2.5-2.5zM5 10.2l11 7.6 11-7.6v2l-11 7.6-11-7.6z"/></symbol>
+</defs></svg>
+
+<header class="bar">
+  <span class="name">Flavyen Dupont</span>
+  <span class="role">Director &amp; Art Director</span>
+  <span class="status"><span id="clock"></span><i class="battery" aria-hidden="true"></i></span>
+</header>
+
+<nav class="cats" id="cats" aria-label="Catégories"></nav>
+
+<main class="xmb">
+  <div class="list-viewport"><ol class="column" id="column" role="listbox" aria-label="Films"></ol><div class="list-mask" aria-hidden="true"></div></div>
+
+  <section class="stage" id="stage" aria-live="polite">
+    <div class="frame"><img id="stageImg" alt=""><img id="stageImgNext" alt=""></div>
+    <div class="meta" id="meta"></div>
+  </section>
+</main>
+
+<footer class="hint">↑ ↓ films &nbsp; ← → catégories &nbsp; ⏎ ouvrir</footer>
+
+<script src="films.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

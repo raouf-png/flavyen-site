@@ -1,0 +1,79 @@
+REALISATEUR SITE, LA DEMANDE COMPLETE
+2 octobre 2026
+
+CE QUE C'EST
+Un site web pour un realisateur (portfolio de films).
+
+LA DIRECTION
+Trois references, environ 30% chacune, melangees en un seul site :
+
+1. PSP (XMB, l'interface de la PlayStation Portable), et le XMB de la PS3 en noir.
+   Rangee horizontale de categories, la selection reste fixe, la rangee glisse.
+   Sous la categorie, une liste verticale, les items loin de la selection s'estompent.
+   Fond bleu avec vagues de lumiere douces et animees. Date, heure et batterie en haut a droite.
+   Item selectionne en blanc avec un halo. Sur PS3 : fond noir, ruban gris soie,
+   chaque sous-item porte une petite cle a molette plus son icone.
+
+2. Le tableau de bord de la Peugeot 106 (S1, annees 90), pas juste les materiaux :
+   la facon dont il est construit et dont les boutons sont faits.
+   Colonne centrale de panneaux encastres dans le plastique gris, coins arrondis.
+   De haut en bas : autoradio cassette (bande d'affichage sombre, bouton de volume rond,
+   rangee de petits boutons de presets identiques), un vide-poche vide,
+   le bloc chauffage (molette avec graduation, deux reglettes horizontales, petite fenetre),
+   une rangee de quatre boutons ronds dont un strie.
+   Compteurs ronds eclaires en bleu sous une casquette. Volant avec le lion.
+   Deux gris : un gris clair grene pour les grandes surfaces, un quasi noir pour les panneaux.
+   Tissu bleu des sieges.
+
+3. Les lecteurs media des annees 2000 :
+   Winamp (skin chrome biseaute, fenetre EQ avec reglettes de couleur, playlist numerotee
+   avec durees), Windows XP avec Windows Media Player en bleu Luna,
+   le Creative Nomad Jukebox (plastique bleu et argent, ecran LCD mono, boutons ovales),
+   la gamme Creative Zen / MuVo.
+
+LA REGLE DE TRAVAIL
+Ne rien commencer tant qu'on n'est pas a 100%. Tout lire, tout voir avant.
+C'est complexe : trois langages qui ne s'accordent pas (PSP leger et sans bord,
+106 et lecteurs 2000 lourds et physiques).
+Quand on construit : copier les references telles qu'elles sont, fidelement,
+avec un vrai effort. Pas une approximation.
+
+LES REFERENCES (dossier refs/)
+psp_xmb_blue.jpg, ps3_xmb_black.jpg, 106_interior.jpg, 106_exterior.png,
+winamp.webp, xp_wmp.webp, nomad_jukebox.jpg, creative_zen_grid.jpg
+Plus la photo du tableau de bord 106 en couleur : ~/Desktop/images-1.jpg (meme fichier que refs/106_interior.jpg).
+La grille Google d'images PSP (capture d'ecran du 2 oct, 14.07.16) n'a pas ete copiee,
+elle etait dans un dossier temporaire.
+
+OU ON EN EST
+Trois pages de demo ont ete faites (psp/, dashboard/, players/), en HTML, CSS et JS sans librairie.
+Verdict de Raouf : mauvaises, faibles, sans effort, inutiles. Elles ne copient pas les references.
+Elles sont gardees ici comme trace, pas comme base.
+
+MISE A JOUR, 2 octobre, apres-midi
+Le site est celui de Flavyen Dupont (realisateur). Contenu : seulement ses films.
+Les projets du site actuel sont clones dans FLAVYEN_DUPONT/ (25 projets, textes, credits, covers, videos).
+Nouvelle direction : tout le site est une PSP (XMB), SANS le tableau de bord 106,
+avec la fluidite de la PSP.
+Reference de mouvement : refs/psp_short_100_jeux.mp4 (YouTube Short, PSP avec 100+ jeux).
+Base existante faite avec ChatGPT : http://127.0.0.1:8461/, fichiers dans /private/tmp/realisateur-site/dist
+(dossier temporaire, peut disparaitre au redemarrage du Mac). Juge mauvais, mais sert de base.
+Piste code : PPSSPP (github.com/hrydgard/ppsspp), UI/Background.cpp, classe WaveAnimation, la formule des vagues.
+Fond : BLANC maintenant. Reference : https://samthies.com/ (fond mesure #f5f5f5, texte petit en mono
+"Quadrant Text Mono", noir, beaucoup d'air, images en grille, la video plein ecran en ouverture).
+
+RECHERCHE GITHUB, recreations XMB / PSP (2 oct). Repos trouves, demos pas encore ouvertes.
+PSP, le plus proche :
+- S1implyBlue/PTF-Studio : editeur de themes PSP avec apercu XMB en direct, JS, GPL-3.0. https://s1implyblue.github.io/PTF-Studio/
+- fchavonet/creative_coding-xmb_wave_background : les vagues PSP en JS, pas de licence. https://fchavonet.github.io/creative_coding-xmb_wave_background/
+- moeezalam/xmdb : clone XMB PSP pour une liste de films IMDb, TypeScript, MIT. https://moeezalam.github.io/xmdb/
+- prathameshpravinpatil/psp-interface : JS, pas de licence. https://psp-interface.vercel.app
+XMB web (surtout PS3), utilisables pour le mouvement :
+- kristianpayne1/playstation-3-xmb (MIT) https://kristianpayne1.github.io/playstation-3-xmb/
+- kofolmarko/xmb-react (MIT) https://xmb-react.vercel.app
+- linkev/PlayStation-3-XMB, vagues PS3 (MIT, 77 etoiles) https://linkev.github.io/PlayStation-3-XMB/
+- amperxo/xmb-portfolio (MIT) https://xmb-portfolio-delta.vercel.app
+- mich1803/XMB-portfolio (pas de licence) https://mich1803.github.io/XMB-portfolio/
+- Kenshi0905/aoxo-portfolio (MIT) https://aoxo-ash.pages.dev/
+- YureiSh/Xmb-Portfolio, React + GSAP (MIT), pas de demo
+Natifs, pas du web : phenom64/OpenXMB (C++, 137 etoiles), JnCrMx/xmbshell (C++), HiroTex/OSD-XMB (PS2, 209 etoiles).

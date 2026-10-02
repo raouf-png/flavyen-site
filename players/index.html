@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Players</title>
+<link rel="stylesheet" href="players.css">
+</head>
+<body>
+
+<!-- 1. XP Luna video window -->
+<section class="xp-window" id="xpWindow" aria-label="Lecteur video">
+  <div class="xp-title" id="xpTitle">
+    <span class="xp-title-icon" aria-hidden="true"></span>
+    <span class="xp-title-text">Windows Media Player</span>
+    <span class="xp-title-btns">
+      <button class="xp-btn xp-min" type="button" aria-label="Reduire"></button>
+      <button class="xp-btn xp-max" type="button" aria-label="Agrandir"></button>
+      <button class="xp-btn xp-close" type="button" aria-label="Fermer"></button>
+    </span>
+  </div>
+  <div class="xp-menu" role="menubar">
+    <button type="button" role="menuitem">File</button>
+    <button type="button" role="menuitem">View</button>
+    <button type="button" role="menuitem">Play</button>
+    <button type="button" role="menuitem">Tools</button>
+    <button type="button" role="menuitem">Help</button>
+  </div>
+  <div class="xp-screen">
+    <video id="xpVideo" preload="metadata" playsinline></video>
+  </div>
+  <div class="xp-transport">
+    <button class="xp-play" id="xpPlay" type="button" aria-label="Lecture" aria-pressed="false"></button>
+    <div class="xp-sliders">
+      <input class="xp-range xp-seek" id="xpSeek" type="range" min="0" max="1000" value="0" step="1" aria-label="Position">
+      <div class="xp-row2">
+        <span class="xp-time" id="xpTime">00:00 / 00:00</span>
+        <input class="xp-range xp-vol" id="xpVol" type="range" min="0" max="100" value="80" aria-label="Volume">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. Winamp playlist + EQ -->
+<section class="wa" aria-label="Liste de lecture">
+  <div class="wa-bar">
+    <span class="wa-bar-text">PLAYLIST</span>
+    <span class="wa-bar-btns"><i></i><i></i></span>
+  </div>
+  <div class="wa-eq" aria-label="Egaliseur">
+    <div class="wa-eq-sliders" id="waEq"></div>
+    <div class="wa-eq-labels">
+      <span>60</span><span>170</span><span>310</span><span>600</span><span>1K</span>
+      <span>3K</span><span>6K</span><span>12K</span><span>14K</span><span>16K</span>
+    </div>
+  </div>
+  <ol class="wa-list" id="waList"></ol>
+  <div class="wa-foot">
+    <span class="wa-foot-btn"></span><span class="wa-foot-btn"></span><span class="wa-foot-btn"></span>
+    <span class="wa-foot-time" id="waFootTime">0:00/0:00</span>
+  </div>
+</section>
+
+<!-- 3. Nomad LCD -->
+<section class="nomad" aria-label="Lecteur portable">
+  <div class="nomad-brand">
+    <span class="nomad-logo">CREATIVE</span>
+    <span class="nomad-model">NOMAD</span>
+  </div>
+  <div class="nomad-bezel">
+    <div class="nomad-lcd" id="nomadLcd">
+      <div class="lcd-head"><span>&#9654;</span><span>Current Track</span><span>&#9646;</span></div>
+      <div class="lcd-line" id="lcdL1">Film 01</div>
+      <div class="lcd-line" id="lcdL2">Realisateur</div>
+      <div class="lcd-line" id="lcdL3">Showreel</div>
+      <div class="lcd-bar" id="lcdBar" aria-hidden="true"></div>
+      <div class="lcd-foot"><span id="lcdIdx">01</span><span id="lcdPos">00:00</span><span>EAX</span><span id="lcdDur">00:00</span></div>
+    </div>
+  </div>
+  <div class="nomad-keys">
+    <button class="nk nk-prev" id="nkPrev" type="button" aria-label="Precedent">&#9664;&#9664;</button>
+    <button class="nk nk-play" id="nkPlay" type="button" aria-label="Lecture" aria-pressed="false">&#9654;</button>
+    <button class="nk nk-next" id="nkNext" type="button" aria-label="Suivant">&#9654;&#9654;</button>
+    <button class="nk nk-stop" id="nkStop" type="button" aria-label="Stop">&#9632;</button>
+  </div>
+</section>
+
+<script src="players.js"></script>
+</body>
+</html>

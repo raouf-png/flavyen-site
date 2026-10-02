@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XMB</title>
+<link rel="stylesheet" href="psp.css">
+</head>
+<body>
+<canvas id="waves" aria-hidden="true"></canvas>
+
+<header class="status">
+  <span id="clock" aria-live="off"></span>
+  <svg class="battery" viewBox="0 0 26 12" aria-label="Battery"><rect x="0.5" y="0.5" width="22" height="11" rx="1.5" fill="none" stroke="currentColor"/><rect x="23.5" y="3.5" width="2" height="5" fill="currentColor"/><rect x="2.5" y="2.5" width="18" height="7" fill="currentColor"/></svg>
+</header>
+
+<nav class="xmb" aria-label="Main menu">
+  <ul class="cats" id="cats" role="tablist" tabindex="0" aria-label="Categories"></ul>
+  <ul class="items" id="items" role="listbox" tabindex="0" aria-label="Items"></ul>
+</nav>
+
+<!-- flat white glyphs, PSP style -->
+<svg hidden>
+  <symbol id="i-films" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="1.5"/><rect x="2" y="4" width="20" height="16" rx="1.5" fill="none"/><g style="fill: var(--bg-key)"><rect x="5" y="7" width="14" height="10"/><rect x="5" y="5" width="2" height="2"/><rect x="9" y="5" width="2" height="2"/><rect x="13" y="5" width="2" height="2"/><rect x="17" y="5" width="2" height="2"/><rect x="5" y="17" width="2" height="2"/><rect x="9" y="17" width="2" height="2"/><rect x="13" y="17" width="2" height="2"/><rect x="17" y="17" width="2" height="2"/></g></symbol>
+  <symbol id="i-commercials" viewBox="0 0 24 24"><rect x="2" y="5" width="16" height="12" rx="1.5"/><polygon points="18,9 23,6 23,16 18,13"/></symbol>
+  <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 3v12.3A3.5 3.5 0 1 0 11 18V8l9-2.5V12.3A3.5 3.5 0 1 0 22 15V2L9 5.6z"/></symbol>
+  <symbol id="i-about" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/></symbol>
+  <symbol id="i-contact" viewBox="0 0 24 24"><path d="M2 5h20v14H2z M3.5 6.5 12 13l8.5-6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><rect x="2" y="5" width="20" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-badge" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" style="fill: var(--badge-bg)"/><path d="M15.7 7.2a3.4 3.4 0 0 0-4.5 4.1L7 15.5a1.3 1.3 0 0 0 1.8 1.8l4.2-4.2a3.4 3.4 0 0 0 4.1-4.5l-2 2-1.6-.4-.4-1.6z" fill="#fff"/></symbol>
+</svg>
+
+<script src="psp.js"></script>
+</body>
+</html>

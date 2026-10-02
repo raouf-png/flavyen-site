@@ -1,0 +1,28 @@
+DS4 Reveal
+Page : https://flavyendupont.com/ds4-reveal
+Categorie sur le site : ADS
+Position dans la grille ALL : 14
+
+VIDEO 1
+  url : https://vimeo.com/947452971/e1ed18b913
+  title : DS Automobiles DS4 3D Reveal | Director's Cut
+  duration : 28 s
+  upload_date : 2024-05-17 11:34:28
+  author_name : Flavyen Dupont
+  description : DS Automobiles DS4 3D Reveal
+  embed : https://player.vimeo.com/video/947452971?h=e1ed18b913
+
+Images de la page : 0 | Videos natives : 0
+
+TEXTE DE LA PAGE
+
+DS Automobiles DS4 3D Reveal
+
+3D video for in-store vehicle demonstration in France.
+
+CREDITS
+
+Produced & Directed by
+Flavyen Dupont for Reality
+3D Artist & Compositing
+Florian Leroy & Mathieu Debruyère
